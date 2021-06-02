@@ -23,4 +23,4 @@ function reportTime(){
 
 report("started");
 document.addEventListener("DOMContentLoaded", DOMReady);
-document.onload = docLoaded;
+document.addEventListener("DOMContentLoaded", docLoaded);
